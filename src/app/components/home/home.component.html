@@ -1,0 +1,38 @@
+<h1>Seja bem vindo ao cadastro de treino Regrando</h1>
+<h4 class="text-danger">{{ anuncio }}</h4>
+
+<div class="row">
+  <div class="col">
+<app-card-produto
+[nome]="nomeProduto"
+[idProduto]="idProduto"
+[dataValidade]="dataValidade"
+[precoProduto]="precoProduto"
+[treino]="treino"
+>
+
+</app-card-produto>
+</div>
+<div class="col">
+<app-card-produto
+nome="Plano Anual"
+[idProduto]="5"
+dataValidade="2024-12-04"
+[precoProduto]="150.00"
+[treino]="treino"
+
+
+></app-card-produto>
+</div>
+<div class="col">
+  <app-card-produto
+
+  nome="Treino de Pernas"
+  [idProduto]="10"
+  dataValidade="2025-05-20"
+  [precoProduto]="90.00"
+  [treino]="treino"
+  ></app-card-produto>
+  </div>
+
+</div>
